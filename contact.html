@@ -26,22 +26,25 @@
     <main class="container my-5">
         <h2>About Me</h2>
         <p>If you'd like to get in touch, feel free to email me at <a href="bida25-434@thuto.bac.ac.bw" class="btn btn-success"> bida25-434@thuto.bac.ac.bw</a>.</p>
+        
+        <form action="acknowledgement.html" method="get">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <div class="buttons">
+                <button type="reset" class="clear-btn">Clear</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    
     </main>
-    <form action="acknowledgement.html" method="get">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <div class="buttons">
-            <button type="reset" class="clear-btn">Clear</button>
-            <button type="submit" class="submit-btn">Submit</button>
-        </div>
-    </form>
+   
 
     
     <footer>
